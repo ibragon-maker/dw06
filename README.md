@@ -4,6 +4,7 @@ Takes two command line arguments, a width and length, then calculates the area o
 
 ## Files
 
+```
 dw06
 ├── app
 │   └── main.cpp
@@ -16,3 +17,4 @@ dw06
 └── tests
     ├── CMakeLists.txt
     └── shapes_tests.cpp
+```

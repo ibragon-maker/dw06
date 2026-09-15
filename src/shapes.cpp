@@ -1,15 +1,15 @@
 #include "shapes.h"
 
 double area(std::string w, std::string l){
-    double witdh{std::stod(w)};
+    double width{std::stod(w)};
     double length{std::stod(l)};
 
-    return width + length;
+    return width * length;
 }
 
 double perimeter(std::string w, std::string l){
     double width{std::stod(w)};
     double length{std::stod(l)};
 
-    return 2 + (width + length);
+    return 2 * (width + length);
 }
